@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henrylle/hello-docker.git"
+    "url": "git+https://github.com/pauloprcm-cmd/hello-docker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/henrylle/hello-docker/issues"
+    "url": "https://github.com/pauloprcm-cmd/hello-docker/issues"
   },
-  "homepage": "https://github.com/henrylle/hello-docker#readme",
+  "homepage": "https://github.com/pauloprcm-cmd/hello-docker#readme", 
   "dependencies": {
     "express": "^4.17.1"
   }

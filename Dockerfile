@@ -1,4 +1,4 @@
-from ubuntu:18.04
+FROM ubuntu:18.04
 
 RUN apt-get update -y
 
@@ -10,6 +10,8 @@ WORKDIR /usr/src/app
 
 RUN mkdir teste
 
+RUN mkdir logs
+
 COPY package.json .
 
 RUN npm i
@@ -18,4 +20,4 @@ COPY app.js .
 
 EXPOSE 3000
 
-CMD ["node", "app"]
+CMD node app > logs/app.log
